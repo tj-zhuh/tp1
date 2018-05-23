@@ -1,0 +1,95 @@
+﻿
+/*.container {width:18rem;height:8rem;}
+.container .zLeftPanel{width:62%;height:4rem;float:left;margin-left:0.2rem;margin-top:0.2rem;}
+.container .zRightPanel{width:30%;height:4rem;float:left;margin-left:0.2rem;margin-top:0.2rem;}
+
+.zLeftPanel .zTitle{height:0.4rem;width:100%;background:#ccc;}
+.zLeftPanel .zTitle .zTitleText{font-size:0.16rem;text-indent:0.2rem;font-weight:600;line-height:0.4rem;width:2rem;float:left;}
+.zLeftPanel .zTitle .zTopbar{width:2rem;height:0.4rem;float:left;}
+.zLeftPanel .zTitle .zTopbar ul{float:left;list-style:none;margin:0;width:3rem;margin-left:-0.5rem;}
+.zLeftPanel .zTitle .zTopbar li{width:0.4rem;height:0.4rem;float:left;}
+.zLeftPanel .zTitle .zTopbar li .zText{float:left;font-size:0.12rem;margin-left:0.2rem;margin-top:0.1rem;}
+.zLeftPanel .zTitle .zTopbar li .zText:hover{cursor:pointer;}
+.zLeftPanel .zTitle .zTopbar li.active .zText{color:#00B997;}
+.zLeftPanel .zBottom-content{width:100%;height:3.56rem;}
+
+.zGrid-container{width:100%;height:100%;}
+.zGrid-container tr{cursor:pointer;}
+.zGrid-container tr.even{background:#F0F0F0;opacity:1;}
+.zGrid-container tr.odd{background:#fff;opacity:1;}
+.zGrid-container tr:hover{background:#ccc;opacity:1;}
+.zGrid-container table{width:100%;border-collapse:collapse;}
+
+
+.zGridTitle{font-size:0.16rem;font-weight:400;line-height:0.4rem;}
+.zGrid-Title .zGridTitle{width:100%;height:100%;background:#ccc;cursor:pointer;}
+.zGrid-Title .zGridTitle:hover{background:#5F7E8B;}
+.zGrid-Title .zGridTitle.active{background:#5F7E8B;color:#fff;}
+.zGrid-Title th{height:0.4rem;width:20%;margin:0;padding:0;}
+.zGrid-Title .zGridTitle{}
+.zGrid-Text td{height:0.3rem;color:#000;}
+
+.zGrid-Text nobr:nth-child(2){float:right;margin-right:0.3rem;}
+.zGrid-Text .zGridText{font-size:0.14rem;text-indent:0.3rem;}
+
+#zPanel1{border:1px solid #ccc;}
+#zPanel2{border:1px solid #ccc;}
+#zPanel3{border:1px solid #ccc;}
+#zPanel4{border:1px solid #ccc;}*/
+
+/***********************************************************************************/
+.container {min-width:1240px;min-height:690px;height:100%;}
+.container .zLeftPanel{width:60%;min-width:400px;float:left;min-height:330px;margin-left:10px;margin-right:10px;margin-top:10px;}
+.container .zRightPanel{width:36%;min-width:200px;float:left;min-height:330px;margin-right:20px;margin-top:10px;margin-left:0;}
+
+.zLeftPanel .zTitle{height:40px;width:100%;background:#ccc;}
+.zLeftPanel .zTitle .zTitleText{font-size:16px;text-indent:20px;font-weight:600;line-height:40px;width:200px;float:left;}
+.zLeftPanel .zTitle .zTopbar{width:200px;height:40px;float:left;}
+.zLeftPanel .zTitle .zTopbar ul{float:left;list-style:none;margin:0;width:300px;margin-left:-50px;}
+.zLeftPanel .zTitle .zTopbar li{width:40px;height:40px;float:left;}
+.zLeftPanel .zTitle .zTopbar li .zText{float:left;font-size:12px;margin-left:20px;margin-top:10px;}
+.zLeftPanel .zTitle .zTopbar li .zText:hover{cursor:pointer;}
+.zLeftPanel .zTitle .zTopbar li.active .zText{color:#00B997;}
+.zLeftPanel .zBottom-content{width:100%;height:290px;}
+
+.zGrid-container{width:100%;height:100%;}
+.zGrid-container tr{cursor:pointer;}
+.zGrid-container tr.even{background:#F0F0F0;opacity:1;}
+.zGrid-container tr.odd{background:#fff;opacity:1;}
+.zGrid-container tr:hover{background:#ccc;opacity:1;}
+.zGrid-container table{width:100%;border-collapse:collapse;}
+
+
+.zGridTitle{font-size:16px;font-weight:400;line-height:40px;}
+.zGrid-Title .zGridTitle{width:100%;height:100%;background:#ccc;cursor:pointer;}
+.zGrid-Title .zGridTitle:hover{background:#5F7E8B;}
+.zGrid-Title .zGridTitle.active{background:#5F7E8B;color:#fff;}
+.zGrid-Title th{height:40px;width:20%;margin:0;padding:0;}
+.zGrid-Title .zGridTitle{}
+.zGrid-Text td{height:30px;color:#000;}
+
+.zGrid-Text nobr:nth-child(2){float:right;margin-right:30px;}
+.zGrid-Text .zGridText{font-size:14px;text-indent:30px;}
+
+#zPanel1{border:1px solid #ccc;}
+#zPanel2{border:1px solid #ccc;}
+#zPanel3{border:1px solid #ccc;}
+#zPanel4{border:1px solid #ccc;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="css/style.css" rel="stylesheet" />            
+    <link href="develop/index/page.css" rel="stylesheet" />
+    <link href="develop/index/css/header.css" rel="stylesheet" />
+    <link href="develop/index/css/left.css" rel="stylesheet" />
+    <link href="develop/index/css/menus.css" rel="stylesheet" />
+    <link href="theme/css/index.css" rel="stylesheet" />
+    <link href="theme/css/theme.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="switch"></div>
+            <div class="personal-center">
+                <div class="username" id="username"></div>
+                <div class="operations">
+                    <span class="greeting">早上好，欢迎您的光临！</span>
+                    <img src="develop/index/images/split.png" />
+                    <ul>
+                        <li id="changepsw"><img src="develop/index/images/changepsw.png" />修改密码</li>
+                        <li id="exit"><img src="develop/index/images/exit.png" />退出</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <ul class="sidebar menulv1" id="menulv1"></ul>
+        <div class="main">
+            <ul class="menubar menulv2" id="menulv2"></ul>
+            <ul class="menubar menulv3" id="menulv3"></ul>
+            <ul class="menubar menulv4" id="menulv4"></ul>
+            <div class="ui">
+                <iframe name="iframe1" id="iframe1" frameborder="0" width="100%" scrolling="no"></iframe>
+            </div>            
+        </div>        
+    </div>
+    <script src="js/config.js"></script>
+    <script src="js/require-2.1.11.js" data-main="develop/index/page"></script>
+</body>
+</html>

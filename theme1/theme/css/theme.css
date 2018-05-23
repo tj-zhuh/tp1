@@ -1,0 +1,41 @@
+﻿
+/*模态窗口的薄膜皮肤*/
+.membrane{
+    background:#ccc;opacity:0.5;
+    
+    /*兼容ie8的滤镜*/
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"
+
+}
+
+/*模态窗体的皮肤*/
+.utilAlert{width:300px;height:150px;background:#fff;position:fixed;top:30%;left:40%;}
+
+/*模态窗口标题的皮肤*/
+.utilAlertTitle{width:100%;height:30px;background:#389edc;text-indent:3%;line-height:150%;}
+
+/*模态窗口text内容区的皮肤*/
+.utilAlertTextArea{width:100%;height:80px;border-bottom:1px #ccc solid;}
+.forwinTextArea{width:88%;height:66px;margin-bottom:14px;padding-left:6%;word-break:break-all;overflow:hidden;text-overflow:ellipsis;}
+
+/*模态窗口的按钮皮肤*/
+.utilAlertConfirmBtn{width:45px;height:20px;background:#e2e2e2;margin-left:41%;margin-top:3%;cursor:pointer;}
+.utilAlertConfirmBtn:hover{background-color:#f3f6f8;}
+.utilAlertConfirmBtn:active{background-color:#e200ff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

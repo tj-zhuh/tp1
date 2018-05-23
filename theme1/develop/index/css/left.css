@@ -1,0 +1,59 @@
+﻿
+.menulv1 {   
+    margin-bottom:-9999px;
+    padding-bottom:9999px; 
+    width:100px;
+    float:left;
+    overflow:hidden; 
+    padding-top:20px;
+}
+
+.menulv1 li {
+    height:92px;
+    width:100px;   
+    position:relative;
+    text-align:center;
+    padding-top:20px;
+    font-size:14pt;
+    font-family:'Microsoft YaHei';
+    color:#fff;
+    cursor:pointer;
+}
+
+.menulv1 li:hover {
+    background-color: #516f7a;
+}
+
+.menulv1 li.active {
+    cursor:default;
+    background-color: #476472;
+    position:relative;
+}
+
+.menulv1 li.active cite{
+    position:relative;
+    width:5px;
+    left:0;
+    top:0;
+    height:112px;    
+}
+
+.menulv1 li.active:before {
+    content: "";
+    position: absolute;
+    width:4px;
+    top:0;
+    left: 0;
+    height:112px;    
+    background-color:#fe5352;
+}
+
+.menulv1 img {
+    width: 37px;
+    height:37px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+        margin-bottom:15px;
+}
+

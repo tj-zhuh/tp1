@@ -1,0 +1,134 @@
+﻿[
+    {
+        "menuId": "1",
+        "menuName": "舆情中心",
+        "folder": "news",
+        "parentId": "root"
+    },
+    {
+        "menuId": "11",
+        "menuName": "个人稿库",
+        "folder": "personal",
+        "parentId": "1"
+    },
+    {
+        "menuId": "111",
+        "menuName": "文字稿件",
+        "folder": "text",
+        "parentId": "11"
+    },
+    {
+        "menuId": "112",
+        "menuName": "图片稿件",
+        "folder": "img",
+        "parentId": "11"
+    },
+    {
+        "menuId": "1121",
+        "menuName": "绘图",
+        "folder": "paint",
+        "parentId": "112"
+    },
+    {
+        "menuId": "1122",
+        "menuName": "摄影",
+        "folder": "photo",
+        "parentId": "112"
+    },
+    {
+        "menuId": "113",
+        "menuName": "音频稿件",
+        "folder": "radio",
+        "parentId": "11"
+    },
+    {
+        "menuId": "114",
+        "menuName": "视频稿件",
+        "folder": "video",
+        "parentId": "11"
+    },
+    {
+        "menuId": "12",
+        "menuName": "待编稿库",
+        "folder": "notexist",
+        "parentId": "1"
+    },
+    {
+        "menuId": "13",
+        "menuName": "公共稿库",
+        "folder": "notexist",
+        "parentId": "1"
+    },
+    {
+        "menuId": "14",
+        "menuName": "新华社稿",
+        "folder": "notexist",
+        "parentId": "1"
+    },
+    {
+        "menuId": "15",
+        "menuName": "媒体素材库",
+        "folder": "notexist",
+        "parentId": "1"
+    },
+    {
+        "menuId": "16",
+        "menuName": "经手稿库",
+        "folder": "notexist",
+        "parentId": "1"
+    },
+    {
+        "menuId": "17",
+        "menuName": "小样稿库",
+        "folder": "notexist",
+        "parentId": "1"
+    },
+    {
+        "menuId": "18",
+        "menuName": "已废稿库",
+        "folder": "notexist",
+        "parentId": "1"
+    },
+    {
+        "menuId": "19",
+        "menuName": "历史稿库",
+        "folder": "notexist",
+        "parentId": "1"
+    },
+    {
+        "menuId": "2",
+        "menuName": "报题平台",
+        "folder": "notexist",
+        "parentId": "root"
+    },
+    {
+        "menuId": "3",
+        "menuName": "稿件编发",
+        "folder": "notexist",
+        "parentId": "root"
+    },
+    {
+        "menuId": "4",
+        "menuName": "发布中心",
+        "folder": "notexist",
+        "parentId": "root"
+    },
+    {
+        "menuId": "5",
+        "menuName": "监控统计",
+        "folder": "notexist",
+        "parentId": "root"
+    },
+    {
+        "menuId": "6",
+        "menuName": "内部交流",
+        "folder": "notexist",
+        "parentId": "root"
+    },
+    {
+        "menuId": "7",
+        "menuName": "管理中心",
+        "folder": "notexist",
+        "parentId": "root"
+    }
+]

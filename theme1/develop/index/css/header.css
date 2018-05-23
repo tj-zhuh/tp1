@@ -1,0 +1,67 @@
+﻿
+.header {
+    height: 75px;
+}
+
+.switch {
+    float: left;
+    width: 28px;
+    height: 24px;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-size: 100% 100%;
+    cursor: pointer;
+    background-image: url(../images/switch.png);
+}
+
+.personal-center {
+    float: right;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+.username,
+.greeting,
+.operations li {
+    color: #fff;
+    font-size: 16px;
+    font-family: SimSun;
+    line-height: 25px;
+    height:25px;
+}
+
+.username {
+}
+
+.operations {
+}
+
+.greeting {
+    float: left;
+}
+
+.operations img {
+    height: 24px;
+    width: 1px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 1px;
+}
+
+.operations ul {
+    float: left;
+}
+
+.operations li {
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.operations li img {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 4px;
+}

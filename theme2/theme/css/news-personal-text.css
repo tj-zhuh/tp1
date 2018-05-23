@@ -1,0 +1,30 @@
+﻿
+.zLeftPanel .zTitle{background:#9e34c1;}
+
+.zLeftPanel .zTitle .zTitleText{color:#fff;}
+
+.zLeftPanel .zTitle .zTopbar li{color:#fff;}
+
+.zLeftPanel .zTitle .zTopbar li.active .zText{color:#25f5ff;}
+
+.zGrid-Title .zGridTitle{background:#9e34c1;}
+.zGrid-Title .zGridTitle.active{background:#4a1150;}
+
+.zGrid-container tr.odd{background:#3339e8;}
+.zGrid-container tr.even{background:#5c62ff;}
+.zGrid-container tr:hover{background:#7ccaf8;}
+.zGrid-Text td{color:#fff;}
+.zGrid-Text td:hover{color:#000;}
+
+
+
+
+
+
+
+
+
+
+
+
+

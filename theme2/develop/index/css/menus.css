@@ -1,0 +1,116 @@
+﻿.menubar {
+}
+
+.menulv2 {
+    height: 50px;
+    background-color: #fff;
+    border-bottom: 1px solid #cdcdcd;
+    overflow: hidden;
+    margin-left: 100px;
+    display: none;
+}
+
+.menulv2 li {
+    line-height: 50px;
+    color: #212121;
+    font-size: 14pt;
+    float: left;
+    min-width: 100px;
+    margin-right: 25px;
+    margin-left: 25px; 
+    text-align: center;
+    cursor: pointer;
+} 
+
+.menulv2 li.active {
+    border-bottom: 3px solid #fe5056;
+    color: #fe5056;
+    height: 47px;
+    cursor: default; 
+}
+
+
+
+.menulv3 {
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #cdcdcd;
+    margin-left: 115px;
+    margin-right: 15px;
+    margin-top: 10px;
+    display: none;
+}
+
+.menulv3 li {
+    line-height: 50px;
+    color: #212121;
+    font-size: 14pt;
+    float: left;
+    min-width: 100px;
+    margin-right: 25px;
+    margin-left: 25px; 
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.menulv3 li:before {
+    content: "|";
+    position: absolute;
+    left: -25px;
+    cursor: default;
+    font-weight: normal;
+}
+
+.menulv3 li:first-child:before {
+    content: "";
+}
+
+.menulv3 li.active {
+    cursor: default;
+    font-weight: bold;
+}
+
+.menulv3 li.high:after {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    padding: 6px;
+    padding: 0 \9;
+    margin-left: -6px;
+    background: inherit;
+    border: inherit;
+    border-left: 1px solid #cdcdcd;
+    border-top: 1px solid #cdcdcd;
+    transform: rotate(45deg);
+    background-color: #fff;
+}
+
+.menulv4 {
+    height: 45px;
+    background-color: #fff;
+    border-right: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+    border-left: 1px solid #cdcdcd;
+    overflow-x: hidden;
+    margin-left: 115px;
+    margin-right: 15px;
+    display: none;
+}
+
+.menulv4 li {
+    line-height: 45px;
+    color: #212121;
+    font-size: 14pt;
+    float: left;
+    min-width: 80px;
+    margin-left: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menulv4 li.active {
+    cursor: default;
+    font-weight: bold;
+}

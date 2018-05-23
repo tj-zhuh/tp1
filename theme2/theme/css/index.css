@@ -1,0 +1,29 @@
+﻿
+.header{background:-webkit-gradient(linear, left top, right bottom, from(#03a2ff), to(rgba(63, 63, 63, 0.83)));  }
+
+
+.sidebar{
+    background-image:none;
+    background:-webkit-gradient(linear, 50 0, 50 700, from(#03a2ff), to(rgba(63, 63, 63, 0.83)));
+
+}
+
+.menulv1 li.active{background:#312fe6;}
+.menulv1 li.active:before{background:#ccfe52;}
+
+.main{background:#0e104b;}
+
+.menulv2{background:#9ce4ff}
+.menulv3{background:#25f5ff}
+.menulv3 li.high:after{background:#2e8bff}
+.menulv4{background:#2e8bff}
+.menulv4 li{color:#fff;}
+
+
+
+
+
+
+
+
+
